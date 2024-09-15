@@ -1,0 +1,24 @@
+.header {
+    background-color: #1e1e2f;
+    padding: 8px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .nodeButton {
+    background-color: #27293d;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    margin-right: 10px;
+    border-radius: 4px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nodeButton:hover {
+    background-color: #34364a;
+  }

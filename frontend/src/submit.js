@@ -41,7 +41,7 @@ export const SubmitButton = () => {
     };
 
     return (
-        <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+        <div className={styles.footer}>
             <button 
                 type="button" 
                 className={styles.submitButton} 

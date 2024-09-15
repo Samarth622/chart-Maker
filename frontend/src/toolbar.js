@@ -1,6 +1,7 @@
 // toolbar.js
 
 import { DraggableNode } from './draggableNode';
+import styles from './toolbar.module.css';
 
 export const PipelineToolbar = () => {
     // Available node types
@@ -12,7 +13,7 @@ export const PipelineToolbar = () => {
     ];
 
     return (
-        <div style={{ padding: '10px' }}>
+        <div className={styles.header}>
             <div style={{ marginTop: '20px', display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
                 {nodeTypes.map(node => (
                     <DraggableNode key={node.type} type={node.type} label={node.label} />
