@@ -1,0 +1,26 @@
+/* App.module.css */
+
+.appContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f7fafc;
+    overflow: hidden;
+  }
+  
+  .toolbarContainer {
+    padding: 16px;
+    background-color: #2d3748;
+  }
+  
+  .pipelineContainer {
+    flex-grow: 1;
+    padding: 16px;
+  }
+  
+  .submitButtonContainer {
+    padding: 16px;
+    background-color: #2d3748;
+    text-align: center;
+  }
+  

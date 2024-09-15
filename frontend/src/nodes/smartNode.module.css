@@ -1,0 +1,42 @@
+/* smartNode.module.css */
+
+.smartNode {
+  background-color: #ffffff;
+  border: 2px solid #1a202c;
+  border-radius: 8px;
+  padding: 12px;
+  width: 250px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nodeHeader {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #2d3748;
+}
+
+.inputField {
+  width: 90%;
+  padding: 8px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+}
+
+.selectField {
+  width: 90%;
+  padding: 8px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+}
+
+.resizableTextarea {
+  resize: both;
+  overflow: auto;
+  min-height: 60px;
+  min-width: 150px;
+}
