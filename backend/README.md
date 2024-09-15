@@ -1,0 +1,1 @@
+install fastapi, networkx, fastapi-cors, uvicorn
